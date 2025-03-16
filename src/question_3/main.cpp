@@ -15,6 +15,8 @@ int main()
     {
         result = get_primes(num);
         cout << result;
+        cout << "Enter a number(Enter -1 to exit): ";
+        cin >> num;
     }
 
     cout << "goodbye!" << endl;
